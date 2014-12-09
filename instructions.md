@@ -1,6 +1,6 @@
 
 
-## Node + Gulp -g (only first time)
+## 1. First time installation (only one time)
 
 download Node.js from http://nodejs.org/ or http://nodejs.org/download/ 
 
@@ -8,34 +8,36 @@ $ sudo npm install gulp -g
 
 $ npm install -g bower
 
+install LiveReload Chrome plugin from https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
 
 
-## Bower - installing library
+## 2.a Manual installation
+
+## 2.a.1 Bower - installing library
 
 $ sudo bower install git://github.com/elrumordelaluz/template.git
 
 
-
-
-## Gulp - installing packages (large version)
+## 2.a.2 Gulp - installing packages (large version)
 
 $ cd path
 $ sudo npm install gulp --save-dev
 $ sudo npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-livereload gulp-cache --save-dev
 
 
-## Gulp - installing packages (short version)
+
+
+## 2.b Auto installation - unsin install.sh
 
 $ cd path
 $ chmod +x install.sh
 $ sudo ./install.sh
 
 
-install LiveReload Chrome plugin from https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
 
 
 
-## Gulp - working on project
+## 3 Gulp - working on project
 
 $ cd path
 $ gulp watch
