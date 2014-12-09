@@ -31,7 +31,7 @@ $ sudo npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint 
 
 $ cd path
 $ chmod +x install.sh
-$ sudo ./install.sh
+$ ./install.sh (when ask password write it)
 
 
 
