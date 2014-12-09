@@ -1,0 +1,14 @@
+{
+  "name": "Template",
+  "version": "0.0.0",
+  "description": "Pixeden Web Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Pixeden",
+  "license": "ISC"
+}

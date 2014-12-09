@@ -1,0 +1,9 @@
+## generic files to ignore
+*.scssc
+.sass-cache
+.DS_Store
+config.rb
+node_modules
+bower_components
+*.jpg
+_*/
