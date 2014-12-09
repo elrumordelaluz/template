@@ -15,9 +15,15 @@ A basic template I use for some projects using Gulp as a task runner with this d
 ###Also easy to install:
 
 1. Creating a folder 
-	$ mkdir my_project
+	`$ mkdir my_project`
 2. Downloading the [install.sh](https://raw.githubusercontent.com/elrumordelaluz/template/master/install.sh) in this folder.
 3. Making executable the script file
-	$ chmod +x install.sh
+	`$ chmod +x install.sh`
 4. Running the installe! (at some point it would ask you your sudo password)
-	$ ./install.sh
+	`$ ./install.sh`
+
+
+### Voilà!
+
+There is a basic bolerplate with [Bootstrap](http://getbootstrap.com/), [jQuery](http://jquery.com/).
+Just `$ gulp watch` and work on it.
