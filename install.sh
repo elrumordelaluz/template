@@ -14,6 +14,6 @@ rm -r bower_components/
 rm bower.json
 rm README.md
 rm instructions.md
-rm install.md
+rm install.sh
 
 echo "Installation finished!"
